@@ -1,12 +1,10 @@
 package com.alexthekap.androidretrofit2rxjava.retrofit;
 
-import android.database.Observable;
-
 import com.alexthekap.androidretrofit2rxjava.model.PostItem;
 
 import java.util.List;
 
-
+import io.reactivex.Observable;
 import retrofit2.http.GET;
 
 /**
@@ -16,6 +14,6 @@ import retrofit2.http.GET;
 public interface IMyAPI {
 
     @GET("posts")
-    Observable<List<PostItem>> getItems();
+    Observable<List<PostItem>> getPosts();
 
 }
