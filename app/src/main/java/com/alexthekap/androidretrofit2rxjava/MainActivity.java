@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                         displayData(postItems);
                     }
                 })
-                );
+            );
     }
 
     private void displayData(List<PostItem> postItems) {
