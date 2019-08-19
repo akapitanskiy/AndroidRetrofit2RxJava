@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AndroidRetrofit2RxJava</string>
+    <string name="dots">%s...</string>
 </resources>

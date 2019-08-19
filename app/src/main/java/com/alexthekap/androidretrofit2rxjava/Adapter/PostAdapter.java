@@ -39,8 +39,8 @@ public class PostAdapter extends RecyclerView.Adapter<PostViewHolder> {
     public void onBindViewHolder(@NonNull PostViewHolder holder, int position) {
         holder.tvAuthor.setText(String.valueOf(postsList.get(position).getUserId()));
         holder.tvTitle.setText(String.valueOf(postsList.get(position).getTitle()));
-        holder.tvContent.setText(new StringBuilder(postsList.get(position).getBody().substring(0, 20))
-                .append("...").toString());
+        holder.tvContent.setText(String.format(context.getResources().getString(R.string.dots),
+                postsList.get(position).getBody().substring(0, 30)));
     }
 
     @Override
