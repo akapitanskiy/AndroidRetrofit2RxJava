@@ -1,4 +1,4 @@
-package com.alexthekap.androidretrofit2rxjava.Adapter;
+package com.alexthekap.androidretrofit2rxjava.adapter;
 
 import android.view.View;
 import android.widget.TextView;
@@ -7,7 +7,6 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.alexthekap.androidretrofit2rxjava.R;
-
 
 /**
  * Created by a.kapitanskiy

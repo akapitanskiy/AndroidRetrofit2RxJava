@@ -11,9 +11,8 @@ import retrofit2.http.GET;
  * Created by a.kapitanskiy
  * on 15.08.2019
  */
-public interface IMyAPI {
+public interface JsonPlaceholderApi {
 
     @GET("posts")
     Observable<List<PostItem>> getPosts();
-
 }

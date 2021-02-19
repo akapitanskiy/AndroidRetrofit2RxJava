@@ -1,4 +1,4 @@
-package com.alexthekap.androidretrofit2rxjava.Adapter;
+package com.alexthekap.androidretrofit2rxjava.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
